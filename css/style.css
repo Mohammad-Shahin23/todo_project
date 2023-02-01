@@ -1,0 +1,50 @@
+*{
+    font-family: 'Righteous', Times, serif;
+}
+body{
+    background-color: rgb(220, 203, 203);
+}
+header {
+    background: #000204;
+    position: fixed;
+    
+    width: 100%;
+}
+header div img {
+    background-color: #000204;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 0px;
+    float: left ;
+}
+header nav ul li {
+    background-color: #ff000000;
+    display: inline;
+    padding: 20px 10px;
+    font-family: 'Righteous', Times, serif;
+    float: right ;
+    margin-right: 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+section table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    text-align: center;
+    
+}
+th {
+    padding: 35px 20px;
+}
+td th{
+    border: 1px solid;
+}
+footer {
+    
+    display: flex;
+    justify-content: center;
+}
