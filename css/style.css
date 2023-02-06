@@ -7,6 +7,7 @@ body{
 header {
     background: #000204;
     position: fixed;
+ 
     width: 100%;
 }
 header div img {
@@ -14,6 +15,7 @@ header div img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
+
     margin: 10px 0px 10px 20px;
     float: left ;
 }
@@ -21,12 +23,14 @@ header div img {
     display: inline-block;
     padding: 20px 10px;
     font-family: 'Righteous', cursive;
+
     margin-right: 30px;
 }
 a {
     color: white;
     text-decoration: none;
 }
+
 #table1 {
     display: flex;
    
@@ -35,12 +39,14 @@ a {
     font-family: 'Righteous', cursive;
     margin-right: 30px;
     margin-top: 15%;
+
     
 }
 th {
     padding: 35px 20px;
 }
 td th{
+
     border: 1px solid black;
 }
 #footer {
@@ -50,3 +56,4 @@ td th{
     justify-content: center;
     margin-top: 30%;
 }
+
