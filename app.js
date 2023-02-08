@@ -56,21 +56,22 @@
 
 // }
 
+
 function yesNo(string){
     switch (string){
         case "yes":
 
-            return itrArr("yes");
+            return pushArr("yes");
             break;
 
         case "no":
             
-            return itrArr("No");
+            return pushArr("No");
             break;
 
         default:
 
-            return itrArr("invalid");
+            return pushArr("invalid");
             break;
     }
 }
@@ -87,10 +88,10 @@ let Q1= yesNo(prompt("Did you clean your room? "));
 
 
 
-let Q2= yesNo(prompt(`Did you take the dog for a walk? `));
+let Q2= yesNo(prompt("Did you take the dog for a walk?"));
 
 
-let Q3= yesNo(prompt(`Did you solve you H.W? `));
+let Q3= yesNo(prompt("Did you solve you H.W?"));
 
 
 console.log(anwArr);
