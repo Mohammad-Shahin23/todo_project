@@ -95,3 +95,6 @@ let Q3= yesNo(prompt("Did you solve you H.W?"));
 
 
 console.log(anwArr);
+for (let i=0; i<anwArr.length ; i++){
+    console.log(anwArr[i]);
+}
